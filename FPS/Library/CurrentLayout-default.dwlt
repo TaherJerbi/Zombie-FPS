@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1280
     height: 755
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -116,7 +116,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 66
+  controlID: 137
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 231, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 38
+  controlID: 48
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 342}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 67
+  controlID: 138
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -420,23 +420,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 3a350000
-      m_LastClickedID: 13626
-      m_ExpandedIDs: 70fbffff3a350000
+      m_SelectedIDs: 84370000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 56fbffff68fbffff70fbffff3a350000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Player
+        m_OriginalName: Player
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 13626
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 7}
       m_SearchString: 
@@ -485,19 +485,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Prefab
   m_ViewMode: 1
   m_StartGridSize: 78
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Prefab
   m_LastFoldersGridSize: 78
   m_LastProjectPath: /Users/taherjerbi/Documents/GitHub/Zombie-FPS/FPS
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 86380000
-    m_LastClickedID: 14470
+    m_SelectedIDs: 76380000
+    m_LastClickedID: 14454
     m_ExpandedIDs: 00000000c8370000ca370000cc370000ce370000d037000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -578,7 +578,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 47.5}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 78
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 110
@@ -646,7 +646,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 641, y: 360.5, z: 0}
     speed: 2
-    m_Value: {x: 641, y: 360.5, z: 0}
+    m_Value: {x: 0.5392663, y: 1.1365, z: -4.184141}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -694,11 +694,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.008942997, y: -0.98654246, z: -0.057779323, w: -0.15272819}
     speed: 2
-    m_Value: {x: -0.008942997, y: 0.9865424, z: 0.057779323, w: 0.15272819}
+    m_Value: {x: 0.008942951, y: -0.9865374, z: -0.057779025, w: -0.1527274}
   m_Size:
     m_Target: 1275.8483
     speed: 2
-    m_Value: 1275.8483
+    m_Value: 16.715595
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -753,14 +753,14 @@ MonoBehaviour:
     m_KeySerializationHelper:
     - {fileID: 1107880670173146032, guid: c929656c07909194ab8a5cd79f5f371d, type: 2}
     m_ValueSerializationHelper:
-    - e00: 0.15265872
+    - e00: 0.37142858
       e01: 0
       e02: 0
-      e03: 71.0446
+      e03: -3.5714264
       e10: 0
-      e11: 0.15265872
+      e11: 0.37142858
       e12: 0
-      e13: 167.4293
+      e13: 86.04286
       e20: 0
       e21: 0
       e22: 1
