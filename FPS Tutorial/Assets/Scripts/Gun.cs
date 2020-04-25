@@ -35,13 +35,12 @@ public class Gun : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
         {
-            Debug.Log(hit.transform.name);
-            //Target target = hit.transform.GetComponent<Target>();
-            //if (target)
-            //{
-            //    target.TakeDamage(damage);
-            //    target.GetComponent<Rigidbody>().AddForce(-hit.normal * force, ForceMode.Impulse);
-            //}
+
+            HealthManager hm = hit.transform.GetComponent<HealthManager>();
+            if (hm)
+            {
+                hm.TakeDamage(damage);
+            }
         }
     }
 }
