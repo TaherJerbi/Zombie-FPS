@@ -19,7 +19,8 @@ public class SimpleCameraShakeCinemachine : MonoBehaviour
     {
         // Get Virtual Camera Noise Profile
         if (VirtualCamera != null)
-            virtualCameraNoise = VirtualCamera.GetCinemachineComponent<Cinemachine.CinemachineBasicMultiChannelPerlin>();
+            virtualCameraNoise =
+                VirtualCamera.GetCinemachineComponent<Cinemachine.CinemachineBasicMultiChannelPerlin>();
     }
 
     // Update is called once per frame
